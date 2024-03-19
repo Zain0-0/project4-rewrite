@@ -656,11 +656,9 @@ h2.pricing_heading {
   padding: 2vw;
 }
 .included_eases {
-  background-color: #b17070;
   padding: 2vw;
   display: flex;
   margin-top: 20px;
-  flex-wrap: wrap;
 }
 .include_eas {
   width: 25%;
