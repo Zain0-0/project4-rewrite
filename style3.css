@@ -1,0 +1,944 @@
+* {
+  margin: -0;
+  padding: -0;
+  max-width: 100%;
+}
+.mulish-uniquifier {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+#home {
+  width: 100%;
+}
+.header {
+  width: 100%;
+}
+p {
+  margin: 10px;
+}
+p,
+a {
+  font-weight: normal;
+  font-size: 1.125em;
+  color: #3a3a3a;
+  font-family: "Mulish", sans-serif;
+  text-wrap: wrap;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 1vh;
+  margin: auto;
+  height: auto;
+}
+.logo {
+  width: auto;
+  height: 8vh;
+  margin-left: auto;
+}
+.sections {
+  margin: 0;
+  padding-top: 4vh;
+  width: auto;
+  font-family: "Mulish", sans-serif;
+  color: #00000080;
+  flex-wrap: wrap;
+}
+/* Side bar menu */
+.sideBar {
+  position: static;
+  padding: 1vh;
+  /* height: 60vh; */
+  width: 200px;
+  top: 0;
+  z-index: 999;
+  box-shadow: 3px 3px 10px rgb(82, 82, 82);
+  background-color: #ffffff7d;
+  border-radius: 10px;
+  display: none;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+  backdrop-filter: blur(10px);
+}
+/* sidebar2 */
+.sideBar2 {
+  position: fixed;
+  margin-left: 25vw;
+  margin-top: 4vh;
+  padding: 1vh;
+  /* height: 60vh; */
+  width: 200px;
+  top: 0;
+  z-index: 999;
+  box-shadow: 3px 3px 10px rgb(82, 82, 82);
+  background-color: #ffffff7d;
+  border-radius: 10px;
+  display: none;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+  backdrop-filter: blur(10px);
+  padding: 10px;
+}
+
+.sign_buttons_sideBar2 {
+  border-top: 1px solid rgb(226, 226, 226);
+  width: fit-content;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 90%;
+}
+.sideBar2 a:hover,
+.sideBar a:hover {
+  color: #3a3a3a;
+}
+
+.sideBar_link {
+  width: 100%;
+  text-decoration: none;
+  color: rgb(194, 175, 175);
+  padding-top: 4vh;
+}
+hr {
+  background-color: #000000;
+  height: 1px;
+}
+.menuCloseIcon {
+  color: blue;
+  background-color: #68b9ff;
+  height: 26px;
+  width: 26px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menuopenIcon {
+  color: blue;
+  background-color: #68b9ff;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+#menuopenIcon {
+  margin-top: 2vh;
+  margin-left: auto;
+  display: none;
+}
+
+.signing_buttons {
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.sign_buttons {
+  font-family: "Mulish", sans-serif;
+  padding: 6px 28px;
+  font-size: 18px;
+  width: auto;
+  height: auto;
+  margin-left: 1vw;
+  border-radius: 50px;
+  text-align: center;
+}
+.sectionsLink,
+.link {
+  padding: 10px;
+  font-family: "Mulish", sans-serif;
+  color: rgb(194, 175, 175);
+  font-style: normal;
+  font-size: 18px;
+  text-decoration: none;
+}
+.blueButton {
+  color: #fff;
+  background-color: #68b9ff;
+  border: none;
+  font-family: "Mulish", sans-serif;
+  padding: 6px 28px;
+  font-size: 18px;
+  width: auto;
+  height: auto;
+  /* margin-left: 2vw; */
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 20px;
+}
+#Sign-Up {
+  margin-top: 0;
+}
+.sign_in {
+  border: 1px solid #ccc;
+  outline: none;
+}
+.about_main {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: 40px;
+}
+.about {
+  display: flex;
+  margin: auto;
+  background-color: #ffeef8;
+  height: 300px;
+  margin-top: 10vh;
+  padding: 20px;
+  margin-bottom: 15vh;
+  border-radius: 10px;
+}
+.about_text {
+  width: 60%;
+  font-family: "Mulish", sans-serif;
+  padding: 10px;
+}
+.about_team {
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+.member {
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+}
+svg {
+  height: 14px;
+  width: 14px;
+  color: #3a3a3a6c;
+}
+.team_img {
+  border-radius: 5px;
+}
+.about_logos {
+  margin: 3px;
+}
+.owner_info_heading {
+  margin: 30px 0 30px 0;
+}
+.main_contact {
+  margin: -10px;
+  /* background-color: #0e1827; */
+  border-radius: 5px;
+}
+.contact_text_img {
+  background-color: #ffeef8;
+  margin: 5vw;
+  display: flex;
+  padding: 50px;
+  height: 200px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.contact_img {
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+}
+.contact_info {
+  margin: 5vw;
+  display: flex;
+  background-color: #f8f8f8;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.contact_owner_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.contactspan_info {
+  display: flex;
+}
+.contact_icon {
+  margin-right: 5px;
+  height: 30px;
+  width: 30px;
+  background-color: #ff7ecd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.contact_clinet_info {
+  margin: 1vw;
+}
+textarea {
+  width: 45vw;
+  border-radius: 10px;
+  border-color: #c0c0c0;
+}
+#name,
+#email,
+#phoneNo,
+#company {
+  border-radius: 3px;
+  border: 1px solid #c0c0c0;
+}
+.clinetInfo_formData {
+  color: #9c9b9b;
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Mulish", sans-serif;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: start;
+}
+.clinet_info1,
+.clinet_info2 {
+  width: 45vw;
+  display: flex;
+  justify-content: space-between;
+}
+.clinet_info {
+  margin: 10px;
+}
+#name,
+#phoneNo,
+#company,
+#email {
+  height: 20px;
+}
+.req {
+  color: red;
+}
+.div1 {
+  display: flex;
+  margin-left: -15;
+  margin-right: -15;
+}
+.div1_1 {
+  width: 8vw;
+}
+.div1_2 {
+  margin-top: 5vh;
+  width: 42vw;
+}
+.heroText {
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-size: 4em;
+  line-height: 70px;
+  letter-spacing: -0.02em;
+  color: #0e1827;
+  text-wrap: wrap;
+  margin-bottom: 0;
+}
+.bluetext {
+  color: #68b9ff;
+}
+.heroParagraph {
+  font-family: "Mulish", sans-serif;
+  text-wrap: wrap;
+  font-size: 1.25em;
+  line-height: 32px;
+  color: #3a3a3a;
+}
+.heroLink {
+  color: #3a3a3a;
+}
+.div1_3 {
+  background-image: url(https://paymence.web.app/assets/images/home/waveBanner.png);
+  background-repeat: no-repeat;
+  height: auto;
+  width: 50vw;
+  background-size: 100%;
+}
+.hero_img {
+  margin: 0;
+  height: 500px;
+  padding-top: 8vh;
+  padding-right: 0;
+  width: 42vw;
+}
+.heading {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  color: #000000;
+  font-family: "Mulish", sans-serif;
+}
+.trustedByLogos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 50px;
+  margin: 0;
+}
+.trustedLogo {
+  height: 13vh;
+  width: 13vw;
+  object-fit: contain;
+}
+.heading2 {
+  font-weight: bold;
+  font-size: 1.5625em;
+  line-height: 2.1875em;
+  color: #000000;
+  font-family: "Mulish", sans-serif;
+}
+.setup_pay {
+  text-align: center;
+  margin-bottom: 0;
+}
+.pay_links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+}
+.pay_item {
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+.item_para {
+  font-weight: normal;
+  font-size: 1.125em;
+  line-height: 26px;
+  color: #3a3a3a;
+  display: inline;
+  font-family: "Mulish", sans-serif;
+}
+.item_span {
+  width: 12px;
+  height: 12px;
+  background: #ff7ecd;
+  display: block;
+  border-radius: 50%;
+  margin-top: 1vh;
+  margin-right: 1vw;
+}
+.services_offered {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  /* paddingvw-left: 4vw; 
+    padding-right: 4vw; */
+  width: 100%;
+  align-items: center;
+}
+.services {
+  margin: 4vw;
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+}
+.service1 {
+  background-color: #eef7fc;
+}
+.service2 {
+  background-color: #fcf9ff;
+}
+.service3 {
+  background-color: #fbf6f2;
+}
+.img_services {
+  background-color: #e3dede;
+  vertical-align: middle;
+}
+.img_sv1 {
+  background-color: #eef7fc;
+}
+.quick_links_heading {
+  text-align: center;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.links_item {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.social_links {
+  display: flex;
+  margin: 5vw;
+}
+.social_texts {
+  width: 50vw;
+  margin-left: 5vw;
+}
+.collectVia {
+  font-size: 1.5625em;
+  color: #3a3a3a;
+}
+.socialText {
+  font-weight: bold;
+  font-size: 2.1875em;
+  line-height: 35px;
+  text-wrap: wrap;
+}
+.Social_icons {
+  background-image: url(https://img.freepik.com/premium-vector/grey-political-world-map-vector-isolated-illustration_175838-190.jpg?w=740);
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 70vh;
+}
+.socialIcon_height {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50vh;
+  width: 50vw;
+  /* margin-left: -10vw; */
+}
+.span_fb_logo,
+.span_twitter_logo,
+.span_whatsapp_logo,
+.span_insta_logo {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  background: linear-gradient(166.91deg, #ff8fc7 9.43%, #ff80af 94.95%);
+  box-shadow: 2px 4px 4px rgba(255, 126, 205, 0.3);
+  font-family: Helvetica;
+  font-weight: bolder;
+  font-size: 3em;
+  margin: 0;
+}
+.fb_logo {
+  display: flex;
+  justify-content: center;
+}
+.twiter_logo {
+  display: flex;
+  justify-content: end;
+}
+.insta_logo {
+  display: flex;
+  justify-content: start;
+  margin-left: 15vw;
+  margin-bottom: 5vh;
+}
+.whatsapp_logo {
+  display: flex;
+  justify-content: end;
+  margin-right: 20vw;
+}
+.span_fb_logo:hover,
+.span_twitter_logo:hover,
+.span_insta_logo:hover,
+.span_whatsapp_logo:hover {
+  rotate: 50deg;
+}
+/* .whatsapp_logoImg,.insta_logoImg,.twiter_logoImg{
+    border-radius: 50%;
+}  */
+.pricing {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f8f8;
+  padding: 10vh;
+}
+.pricing_text {
+  margin-top: 10vh;
+  margin-left: 10vh;
+  width: 40vw;
+}
+.pricing_img {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 10vh;
+}
+h2.pricing_heading {
+  text-align: start;
+}
+.partners {
+  display: flex;
+  padding: 10vh;
+  justify-content: space-around;
+}
+h2.partners_heading {
+  margin-left: 10vw;
+  text-align: start;
+}
+.paymence_steps {
+  display: flex;
+  justify-content: center;
+  padding: 15vh;
+  background-color: #f8f8f8;
+  flex-direction: column;
+  margin: 0;
+}
+.paymence_steps_heading {
+  text-align: center;
+  text-wrap: wrap;
+  margin-left: 10vw;
+  margin-left: 10vw;
+}
+.paymence_steps_para {
+  text-align: center;
+  margin: 10px;
+}
+.paymence_mathod_video {
+  display: flex;
+  justify-content: center;
+
+  /* padding: 10vh; */
+}
+.div_paymence_video {
+  height: 80vh;
+}
+.paymence_mathod {
+  width: auto;
+  margin-right: 5vw;
+}
+.paymence-mathod_signUp,
+.paymence_mathod_collection,
+.paymence_mathod_settlement {
+  display: flex;
+  /* justify-content: center; */
+  margin-bottom: 10vh;
+}
+.paymence_mathod_No {
+  width: 58px;
+  height: 58px;
+  background: #ff86b8;
+  border-radius: 5px;
+  display: block;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+  margin-right: 1vw;
+}
+.paymence-mathod_para,
+.paymence-mathod_heading {
+  width: 30vw;
+  margin: 0;
+}
+.why_choose {
+  margin: 10vw;
+}
+.why_choose_text {
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+.why_choose_benafits {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.choose_benafits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  text-align: center;
+  margin-top: 10vh;
+}
+.choose_spaan {
+  display: block;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  background: linear-gradient(166.91deg, #ff8fc7 9.43%, #ff80af 94.95%);
+  box-shadow: 2px 4px 4px rgba(255, 126, 205, 0.3);
+}
+.choose_heading,
+.choose_spaan,
+.choose_para {
+  margin: 0;
+}
+.paymence_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.footer_para {
+  padding-right: 2vw;
+  padding-left: 2vw;
+
+  padding-top: 4vh;
+  width: auto;
+  font-family: "Mulish", sans-serif;
+  color: #00000080;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+@media only screen and (max-width: 1024px) {
+  .Social_icons {
+    height: auto;
+  }
+  .socialIcon_height {
+    height: auto;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .body {
+    width: 100vw;
+  }
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sectionsLink {
+    display: none;
+  }
+  .menuopenIcon {
+    display: flex;
+  }
+  .logo {
+    width: auto;
+    height: auto;
+  }
+  .main {
+    margin: 0;
+    padding: 0;
+  }
+  .blueButton {
+    margin-top: 15px;
+  }
+  .about_main {
+    margin: 0;
+  }
+  .about {
+    flex-wrap: wrap;
+    width: 80vw;
+    height: auto;
+    /* margin: 20px; */
+  }
+  .about_text {
+    width: auto;
+  }
+  .about_team {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .team_img {
+    width: 70vw;
+  }
+  .contact_text_img {
+    flex-direction: column;
+    height: 300px;
+    width: 60vw;
+    margin-top: 4vh;
+    margin: auto;
+    margin-bottom: 10vh;
+  }
+  .contact_img {
+    margin-top: auto;
+  }
+  .contact_info {
+    display: flex;
+    flex-direction: column;
+  }
+  .clinet_info1,
+  .clinet_info2 {
+    flex-direction: column;
+  }
+  textarea {
+    width: 80vw;
+    height: 10vh;
+  }
+  .div1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    /* margin-bottom: 10vh; */
+  }
+  .div1_1 {
+    width: 0;
+    margin: 0;
+  }
+  .div1_2 {
+    height: auto;
+    width: auto;
+  }
+  .heroText {
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+  .heroParagraph {
+    font-size: 1.125em;
+    text-align: center;
+  }
+  .hero_buttons {
+    text-align: center;
+    margin-bottom: 4vh;
+  }
+  .div1_3 {
+    width: auto;
+  }
+  .heading2 {
+    line-height: 1em;
+    margin: 10px;
+  }
+  .hero_img {
+    padding:10px ;
+    height: 90%;
+    width: 90%;
+  }
+
+  .trustedByLogos {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    margin: 0;
+    padding-top: 0;
+  }
+  .trustedByText {
+    font-size: 2em;
+  }
+  .trustedLogo {
+    height: auto;
+    width: 30vw;
+    margin: 10px;
+  }
+  .heading {
+    font-size: 2em;
+    margin: 10px;
+  }
+  .services_offered {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .services {
+    display: block;
+  }
+  .social_links {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .social_texts {
+    width: auto;
+    margin: 0;
+  }
+  .Social_icons {
+    height: 50vh;
+    background-image: 100%;
+  }
+  .socialIcon_height {
+    width: auto;
+    height: auto;
+  }
+  .whatsapp_logo {
+    margin-right: 20vw;
+  }
+  .insta_logo {
+    margin-left: 30vw;
+  }
+  .pricing {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .pricing_img,
+  .pricing_text {
+    margin: auto;
+    width: auto;
+  }
+  .partners {
+    flex-wrap: wrap;
+  }
+  .paymence_steps {
+    height: auto;
+    margin-bottom: 2vh;
+    padding: 0;
+  }
+  .paymence_steps_heading {
+    margin-left: 0;
+  }
+  .paymence_mathod_video {
+    flex-wrap: wrap;
+    height: auto;
+    margin-bottom: 2vh;
+  }
+  .div_paymence_video {
+    height: auto;
+  }
+  .paymence_video {
+    width: 80vw;
+    /* height: 60vh; */
+    margin-bottom: 2vh;
+  }
+  .choose_benafits {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  #menuopenIcon {
+    display: flex;
+    position: fixed;
+    margin-left: 80vw;
+  }
+  .menuopenIcon {
+    display: none;
+  }
+  .signing_buttons {
+    display: none;
+  }
+  .sign_in {
+    margin-top: 1vh;
+    margin-right: 1vw;
+  }
+  .logo {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}

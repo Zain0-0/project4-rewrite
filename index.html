@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/brands.min.css"
+        integrity="sha512-8RxmFOVaKQe/xtg6lbscU9DU0IRhURWEuiI0tXevv+lXbAHfkpamD4VKFQRto9WgfOJDwOZ74c/s9Yesv3VvIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+</head>
+
+<body>
+    <header class="header" id="home">
+
+
+        <nav class="nav">
+            <div class="logo nav"><img src="https://paymence.web.app/assets/images/logo.png" alt="logo"></div>
+
+
+            <div class="sideBar">
+                <a href="#" onclick=closeSideBar() class="menuCloseIcon"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="24" viewBox="0 -960 960 960" width="24">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a>
+                <a href="#pay_sol" class="sideBar_link">Payment Solutions</a>
+                <a href="#pricing" class="sideBar_link">Pricing</a>
+                <a href="about.html" class="sideBar_link">About Us</a>
+                <a href="contact.html#contact" class="sideBar_link">Contact Us</a>
+            </div>
+
+            <div class="sideBar2">
+                <a href="#" onclick=closeSideBar2() class="menuCloseIcon"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="24" viewBox="0 -960 960 960" width="24">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a>
+                <a href="#pay_sol" class="sections2Link link">Payment Solutions</a>
+                <a href="#pricing" class="sections2Link link">Pricing</a>
+                <a href="about.html" class="sections2Link link">About Us</a>
+                <a href="contact.html#contact" class="sections2Link link">Contact Us</a>
+                <div class="sign_buttons_sideBar2">
+                    <button class="sign_buttons sign_up blueButton" id="Sign-Up">Sign Up</button>
+                    <button class="sign_buttons sign_in">Sign In</button>
+                </div>
+            </div>
+
+
+            <div id="sections" class="secttions nav">
+                <a href="#pay_sol" class="sectionsLink link">Payment Solutions</a>
+                <a href="#pricing" class="sectionsLink link">Pricing</a>
+                <a onclick=showSideBar() href="#" class="menuopenIcon"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="35" viewBox="0 -960 960 960" width="35">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a>
+                <a href="about.html" class="sectionsLink link">About Us</a>
+                <a href="contact.html#contact" class="sectionsLink link">Contact Us</a>
+            </div>
+
+            <a onclick=showSideBar2() href="#" class="menuopenIcon" id="menuopenIcon"><svg
+                    xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg></a>
+
+
+            <div class="signing_buttons nav">
+                <button class="sign_buttons sign_up blueButton" id="Sign-Up">Sign Up</button>
+                <button class="sign_buttons sign_in">Sign In</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <span class="ter"></span>
+        <div class="div1">
+            <div class="div1_1"></div>
+            <div class="div1_2">
+                <h2 class="heroText">Let Us Handle Your <span class="bluetext">Paymence</span></h2>
+                <p class="heroParagraph">Paymence is a simple payment platform for companies and social media businesses
+                    to accept payments at the lowest cost possible and get paid fast.</p>
+                <div class="hero_buttons">
+                    <button class="blueButton">Start Now</button>
+                    <a href="#payment" class="heroLink link">Pricing &gt;</a>
+                </div>
+            </div>
+            <div class="div1_3">
+                <img src="https://paymence.web.app/assets/images/home/Phone.png" alt="paymence_img" class="hero_img">
+            </div>
+        </div>
+        <section class="trustedBy">
+            <h2 class="trustedByText heading">Trusted By</h2>
+            <div class="trustedByLogos">
+                <div>
+                    <img src="https://paymence.web.app/assets/images/trusted_by/anyGold.png" alt="logo_anyGold"
+                        class="trustedLogo">
+                </div>
+                <div>
+                    <img src="https://paymence.web.app/assets/images/trusted_by/max_money.png" alt="logo_maxMoney"
+                        class="trustedLogo">
+                </div>
+                <div>
+                    <img src="https://paymence.web.app/assets/images/trusted_by/AZ_Tech.png" alt="log_AZtech"
+                        class="trustedLogo">
+                </div>
+                <div>
+                    <img src="https://paymence.web.app/assets/images/trusted_by/mobile.png" alt="logo_mobile"
+                        class="trustedLogo">
+                </div>
+                <div>
+                    <img src="https://paymence.web.app/assets/images/trusted_by/n00r.svg" alt="logo_n00r"
+                        class="trustedLogo">
+                </div>
+                <div>
+                    <img src="https://paymence.web.app/assets/images/trusted_by/goBiz.svg" alt="log_goBiz"
+                        class="trustedLogo">
+                </div>
+            </div>
+        </section>
+        <section class="payments" id="pay_sol">
+            <h2 class="our_pay heading">Our Payment Solutions</h2>
+            <h2 class="setup_pay heading2">Setup Payment Gateway</h2>
+            <div class="pay_links links">
+                <div class="pay_item item">
+                    <div><span class="pay_item_span item_span"> </span></div>
+                    <div>
+                        <p class="pay_item_para item_para">Easy Setup</p>
+                    </div>
+                </div>
+                <div class="pay_item item">
+                    <div><span class="pay_item_span  item_span"> </span></div>
+                    <div>
+                        <p class="pay_item_para item_para">Fast Checkout</p>
+                    </div>
+                </div>
+                <div class="pay_item item">
+                    <div><span class="pay_item_span item_span"> </span></div>
+                    <div>
+                        <p class="pay_item_para item_para">Easy Integration</p>
+                    </div>
+                </div>
+            </div>
+            <div class="services_offered">
+                <div class="services service1">
+                    <img src="https://paymence.web.app/assets/images/web.png" alt="webDev_logo"
+                        class="img_services img_sv1">
+                    <h2 class="heading2">Web development</h2>
+                    <div class="services_para">
+                        <p class="services_para_p">Integrate Paymence payment platform on your website and start
+                            collecting paymence in no time.</p>
+                    </div>
+                    <button class="blueButton">View Docs</button>
+                </div>
+                <div class="services service2">
+                    <img src="https://paymence.web.app/assets/images/app.png" alt="appDev_logo"
+                        class="img_services img_sv2">
+                    <h2 class="heading2">App development</h2>
+                    <div class="services_para">
+                        <p class="services_para_p">Integrate Paymence payment platform on your mobile app with all
+                            payment options.</p>
+                    </div>
+                    <button class="blueButton">View SDK</button>
+                </div>
+                <div class="services service3">
+                    <img src="https://paymence.web.app/assets/images/wocommerce.png" alt="ecom_logo"
+                        class="img_services img_sv3">
+                    <h2 class="heading2">WooCommerce</h2>
+                    <div class="services_para">
+                        <p class="services_para_p">Ready to use payment platform plugins for WooCommerce. More
+                            E-commerce platforms and shopping carts coming soon!</p>
+                    </div>
+                    <button class="blueButton">Plugins</button>
+                </div>
+            </div>
+        </section>
+        <section class="quick_links">
+            <h2 class="heading2 quick_links_heading">Quick Links</h2>
+            <div class="links">
+                <div class="links_item item">
+                    <div><span class="item_span"> </span></div>
+                    <div>
+                        <p class="item_para">No Coding</p>
+                    </div>
+                </div>
+                <div class="links_item item">
+                    <div><span class="item_span"> </span></div>
+                    <div>
+                        <p class="item_para">No Developer Required</p>
+                    </div>
+                </div>
+                <div class="links_item item">
+                    <div><span class="item_span"> </span></div>
+                    <div>
+                        <p class="item_para">No website needed</p>
+                    </div>
+                </div>
+                <div class="links_item item">
+                    <div><span class="item_span"> </span></div>
+                    <div>
+                        <p class="item_para">Secure</p>
+                    </div>
+                </div>
+            </div>
+            <div class="social_links">
+                <div class="social_texts">
+                    <p class="collectVia">Collect via</p>
+                    <p class="socialText">Whatsapp/ Instagram/ Facebook/ Twitter etc.</p>
+                    <p>Now directly share links to your customer anywhere & collect paymence seamlessly.</p>
+                    <button class="blueButton">Explore</button>
+                </div>
+                <div class="Social_icons">
+                    <div class="socialIcon_height">
+                        <div class="fb_logo">
+                            <span class="span_fb_logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="_logo_svg">
+                                    <path fill="#ffffff"
+                                        d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="twiter_logo">
+                            <span class="span_twitter_logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="_logo_svg">
+                                    <path class="_logo_svg" fill="#ffffff"
+                                        d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="insta_logo">
+                            <span class="span_insta_logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="_logo_svg">
+                                    <path fill="#ffffff"
+                                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="whatsapp_logo">
+                            <span class="span_whatsapp_logo">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512" class="_logo_svg"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path fill="#ffffff"
+                                        d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pricing" id="pricing">
+            <div class="pricing_text">
+                <h2 class="heading pricing_heading" id="pricing_heading">No more complex pricing</h2>
+                <p>We promise we won't burden you with unnecessary plans or pricings. We are transparent with our
+                    pricing and no hidden fees or setup costs.</p>
+                <button class="blueButton">Compare Pricing</button>
+            </div>
+            <div class="pricing_img">
+                <img src="https://paymence.web.app/assets/images/home/Section-3-complex-pricing.png"
+                    alt="paymence-weba-app" height="480px">
+            </div>
+        </section>
+        <section class="partners">
+            <div class="partners_text ">
+                <h2 class="heading partners_heading">Partners and Payment Method</h2>
+            </div>
+            <div class="partners_logo">
+                <img src="https://paymence.web.app/assets/images/home/Section-4-payment-methods.png "
+                    alt="partners_logo" height="100%" width="100%">
+            </div>
+        </section>
+        <section class="paymence_steps">
+            <div>
+                <h2 class="heading paymence_steps_heading">Built perfectly </br> for online paymence
+                </h2>
+                <p class="paymence_steps_para">Start accepting Paymence without a website in 3 simple steps.</p>
+            </div>
+            <div class="paymence_mathod_video">
+                <div class="paymence_mathod">
+                    <div class="paymence-mathod_signUp">
+                        <div class="paymence_mathod_No">01</div>
+                        <div>
+                            <h2 class="heading2 paymence-mathod_heading">Sign-Up</h2>
+                            <p class="paymence-mathod_para">Sign-up with us and get approved in a day.</p>
+                        </div>
+                    </div>
+                    <div class="paymence_mathod_collection">
+                        <div class="paymence_mathod_No">02</div>
+                        <div>
+                            <h2 class="heading2 paymence-mathod_heading">Paymence Collection</h2>
+                            <p class="paymence-mathod_para">Sign-in, create and send a quick payment link to your
+                                customer through your chosen sales/business platform eg. WhatsApp, Instagram, FB & etc.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="paymence_mathod_settlement">
+                        <div class="paymence_mathod_No">03</div>
+                        <div>
+                            <h2 class="heading2 paymence-mathod_heading">Settlement</h2>
+                            <p class="paymence-mathod_para">Customer pays through the link and your payment will be
+                                credited in your bank ASAP with the lowest cost in the industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="div_paymence_video">
+                    <img src="https://paymence.web.app/assets/images/home/video.png" alt="video" height="100%"
+                        width="100%" class="paymence_video">
+                </div>
+            </div>
+        </section>
+        <section class="why_choose">
+            <div class="why_choose_text">
+                <h2 class="heading">Why choose Paymence as your preferred payment platform?</h2>
+            </div>
+            <div class="why_choose_benafits">
+                <div class="choose_benafits">
+                    <span class="choose_spaan"><img src="https://paymence.web.app/assets/icons/transaction.png"
+                            alt=""></span>
+                    <h2 class="heading2 choose_heading">Transaction fee</h2>
+                    <p class="choose_para">We charge the cheapest fee for FPX and Card transactions in the market.</p>
+                </div>
+                <div class="choose_benafits">
+                    <span class="choose_spaan">
+                        <img src="https://paymence.web.app/assets/icons/cost.png" alt=""></span>
+                    <h2 class="heading2 choose_heading">No extra membership cost</h2>
+                    <p class="choose_para">We do not charge a membership fee to our customers to use our service. You
+                        only have to pay as you use.</p>
+                </div>
+                <div class="choose_benafits">
+                    <span class="choose_spaan"><img src="https://paymence.web.app/assets/icons/best-choice.png"
+                            alt=""></span>
+                    <h2 class="heading2 choose_heading">FPX Online Banking & Cards</h2>
+                    <p class="choose_para">Rocket your sales by providing multiple payment options for your customers.
+                    </p>
+                </div>
+                <div class="choose_benafits">
+                    <span class="choose_spaan"><img src="https://paymence.web.app/assets/icons/credit-card-payment.png"
+                            alt=""></span>
+                    <h2 class="heading2 choose_heading">Get approved fast</h2>
+                    <p class="choose_para">We review and approve merchants in 2 days.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="paymence_logo">
+            <img src="https://paymence.web.app/assets/images/logo.png" alt="paymence_logo">
+        </div>
+        <div class="footer_nav">
+            <div><a class="footer_para" href="#home">Home</a></div>
+            <div><a href="#pay_sol" class="footer_para">Payment Solutions</a></div>
+            <div><a class="footer_para" href="#pricing">Pricing</a></div>
+            <div><a class="footer_para" href="about.html">About Us</a></div>
+            <div><a class="footer_para" href="contact.html">Contact Us</a></div>
+        </div>
+    </footer>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>

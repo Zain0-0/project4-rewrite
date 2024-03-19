@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header" id="home">
+
+
+        <nav class="nav">
+            <div class="logo nav"><img src="https://paymence.web.app/assets/images/logo.png" alt="logo"></div>
+
+
+            <div class="sideBar">
+                <a href="#" onclick=closeSideBar() class="menuCloseIcon"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="24" viewBox="0 -960 960 960" width="24">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a>
+                <a href="index.html#pay_sol" class="sideBar_link">Payment Solutions</a>
+                <a href="index.html#pricing" class="sideBar_link">Pricing</a>
+                <a href="about.html#about" class="sideBar_link">About Us</a>
+                <a href="#contact" class="sideBar_link">Contact Us</a>
+            </div>
+
+            <div class="sideBar2">
+                <a href="#" onclick=closeSideBar2() class="menuCloseIcon"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="24" viewBox="0 -960 960 960" width="24">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a>
+                <a href="index.html#pay_sol" class="sections2Link link">Payment Solutions</a>
+                <a href="index.html#pricing" class="sections2Link link">Pricing</a>
+                <a href="about.html#about" class="sections2Link link">About Us</a>
+                <a href="#contact" class="sections2Link link">Contact Us</a>
+                <div class="sign_buttons_sideBar2">
+                    <button class="sign_buttons sign_up blueButton" id="Sign-Up">Sign Up</button>
+                    <button class="sign_buttons sign_in">Sign In</button>
+                </div>
+            </div>
+
+
+            <div id="sections" class="secttions nav">
+                <a href="index.html#pay_sol" class="sectionsLink link">Payment Solutions</a>
+                <a href="index.html#pricing" class="sectionsLink link">Pricing</a>
+                <a onclick=showSideBar() href="#" class="menuopenIcon"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="35" viewBox="0 -960 960 960" width="35">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a>
+                <a href="about.html#about" class="sectionsLink link">About Us</a>
+                <a href="#contact" class="sectionsLink link">Contact Us</a>
+            </div>
+
+            <a onclick=showSideBar2() href="#" class="menuopenIcon" id="menuopenIcon"><svg
+                    xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg></a>
+
+
+            <div class="signing_buttons nav">
+                <button class="sign_buttons sign_up blueButton" id="Sign-Up">Sign Up</button>
+                <button class="sign_buttons sign_in">Sign In</button>
+            </div>
+        </nav>
+    </header>
+    <main class="main_contact">
+        <div class="contact_text_img">
+            <div class="contact_text">
+                <h2 class="heading contact_heading">Contact us</h2>
+            </div>
+            <div class="contact_img">
+                <img src="https://paymence.web.app/assets/images/contact.png" alt="contact_img" width="100%"
+                    height="350px" class="contact_img">
+            </div>
+        </div>
+        <div class="contact_info">
+            <div class="contact_owner_info">
+                <h2 class="heading owner_info_heading">Get in touch</h2>
+                <p>Your Feedback is Golden to us, Say Hello!</p>
+                <address>
+                    <span class="contactspan_info">
+                        <span class="contact_icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path fill="#ffffff"
+                                    d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                            </svg></span>
+                        <a href="mailto:hello@paymence.com">hello@paymence.com</a>
+                    </span></br>
+                    <span class="contactspan_info">
+                        <span class="contact_icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path fill="#ffffff"
+                                    d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                            </svg></span>
+                        <a href="tel:0010568477354">001 056 847 7354</a>
+                    </span></br>
+                    <span class="contactspan_info">
+                        <span class="contact_icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                <path fill="#ffffff"
+                                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                            </svg></span>
+                        <a
+                            href="https://www.google.com/search?q=15-11A%2C+Q+Sentral%2C+Jalan+Stesen+Sentral+2%2C+50470+KL&oq=15-11A%2C+Q+Sentral%2C+Jalan+Stesen+Sentral+2%2C+50470+KL&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDEzNjRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">15-11A,
+                            Q Sentral, Jalan Stesen Sentral 2, 50470 KL.</a>
+                    </span>
+                </address>
+            </div>
+            <div class="contact_clinet_info">
+                <form action="#" class="clinet_info_form">
+                    <div class="clinetInfo_formData">
+                        <div class="clinet_info1">
+                            <div class="clinet_info">
+                                <label for="name">Name<sup class="req">*</sup></label>
+                                <div>
+                                    <input type="text" id="name" placeholder="Name" required>
+                                </div>
+                            </div>
+                            <div class="clinet_info">
+                                <label for="email">Email<sup class="req">*</sup></label>
+                                <div>
+                                    <input type="email" placeholder="Email" id="email" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="clinet_info2">
+                            <div class="clinet_info">
+                                <label for="phoneNo">Phone No.</label>
+                                <div>
+                                    <input type="number" placeholder="Phone No." id="phoneNo">
+                                </div>
+                            </div>
+                            <div class="clinet_info">
+                                <label for="company">Company</label>
+                                <div> <input type="text" placeholder="Company" id="company"></div>
+                            </div>
+                        </div>
+                        <div class="clinet_info clinet_info3">
+                            <label for="message">Message<sup class="req">*</sup></label>
+                            <div> <textarea name="" id="message" cols="50" rows="10"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="blueButton clinetInfo_button">Send Message</button>
+
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="paymence_logo">
+            <img src="https://paymence.web.app/assets/images/logo.png" alt="paymence_logo">
+        </div>
+        <div class="footer_nav">
+            <div><a class="footer_para" href="index.html#home">Home</a></div>
+            <div><a href="index.html#pay_sol" class="footer_para">Payment Solutions</a></div>
+            <div><a class="footer_para" href="index.html#pricing">Pricing</a></div>
+            <div><a class="footer_para" href="about.html#about">About Us</a></div>
+            <div><a class="footer_para" href="#contact">Contact Us</a></div>
+        </div>
+    </footer>
+</body>
+<script src="javascript/script.js"></script>
+
+</html>
